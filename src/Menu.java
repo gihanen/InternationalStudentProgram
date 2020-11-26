@@ -23,7 +23,7 @@ public class Menu {
 	}
 	
 	public void addOption(String option) {
-		this.options.add(option);
+		this.options.add(option); 
 	}
 	
 	public int activateMenu() {

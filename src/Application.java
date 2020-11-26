@@ -26,7 +26,7 @@ public class Application {
 		// TODO: ask for username and password for DB, store to username and password variables
 		String username = "", password = "";
 		
-		// initialize DB connection
+		// initialize DB connection   
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			// Make sure your schema name matches with the one below, or your code will not execute.
